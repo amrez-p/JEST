@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test":"jest"
+    "test": "jest",
+    "start": "index.js"
   },
   "devDependencies": {
     "jest": "^27.4.7"
-    }
+  },
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
 }
